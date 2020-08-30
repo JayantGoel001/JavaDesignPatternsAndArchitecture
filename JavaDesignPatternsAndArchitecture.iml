@@ -8,6 +8,10 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Model-View-Controller/controller" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Model-View-Controller/model" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Model-View-Controller/view" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/controller" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/model" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/view" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
