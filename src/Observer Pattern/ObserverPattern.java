@@ -9,6 +9,7 @@ public class ObserverPattern {
         ModelObserver model = new ModelObserver();
         ViewObserver view = new ViewObserver(model);
 
-        ControllerObserver controllerObserver = new ControllerObserver(model,view);
+        ControllerObserver controller = new ControllerObserver(model,view);
+
     }
 }
