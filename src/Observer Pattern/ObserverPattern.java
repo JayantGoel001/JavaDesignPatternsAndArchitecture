@@ -2,9 +2,7 @@ import javax.swing.*;
 
 public class ObserverPattern {
     public static void main(String[] args){
-        SwingUtilities.invokeLater(() -> {
-            runApp();
-        });
+        SwingUtilities.invokeLater(ObserverPattern::runApp);
     }
 
     private static void runApp() {
