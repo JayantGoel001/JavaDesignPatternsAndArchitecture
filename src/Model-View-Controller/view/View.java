@@ -4,20 +4,17 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class View extends JFrame implements ActionListener {
-    private Model model;
-    private JButton okButton;
-    private JTextField nameField;
-    private JPasswordField passField;
+    private final JTextField nameField;
+    private final JPasswordField passField;
 
     private LoginListener loginListener;
 
     public View(Model model) throws HeadlessException {
         super("MVC Demo");
-        this.model = model;
 
         nameField = new JTextField(10);
         passField = new JPasswordField(10);
-        okButton = new JButton("OK");
+        JButton okButton = new JButton("OK");
 
         setLayout(new GridBagLayout());
 

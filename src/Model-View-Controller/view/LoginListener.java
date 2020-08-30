@@ -1,3 +1,3 @@
 public interface LoginListener {
-    public void loginPerformed(LoginFormEvent event);
+    void loginPerformed(LoginFormEvent event);
 }
