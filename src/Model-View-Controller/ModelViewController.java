@@ -10,6 +10,6 @@ public class ModelViewController {
         View view = new View(model);
 
         Controller controller = new Controller(model,view);
-
+        view.setLoginListener(controller);
     }
 }
