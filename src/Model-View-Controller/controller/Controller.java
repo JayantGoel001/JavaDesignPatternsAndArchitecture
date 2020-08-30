@@ -5,6 +5,6 @@ public class Controller implements LoginListener{
 
     @Override
     public void loginPerformed(LoginFormEvent event) {
-
+        System.out.println("Login Received ::\n"+event.getName()+" : "+event.getPassword());
     }
 }
