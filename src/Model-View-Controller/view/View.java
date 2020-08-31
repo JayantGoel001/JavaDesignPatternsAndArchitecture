@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
 
 public class View extends JFrame implements ActionListener {
     private final JTextField nameField;
@@ -70,6 +72,21 @@ public class View extends JFrame implements ActionListener {
 
         okButton.addActionListener(this);
 
+        Database db = Database.getInstance();
+
+        addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowOpened(WindowEvent e) {
+                db.connect();
+                super.windowOpened(e);
+            }
+
+            @Override
+            public void windowClosing(WindowEvent e) {
+                db.disconnect();
+                super.windowClosed(e);
+            }
+        });
         setSize(600, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
