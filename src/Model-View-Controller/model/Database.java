@@ -1,3 +1,5 @@
+import java.sql.Connection;
+
 public class Database {
     private static final Database instance = new Database();
     private Database() {
@@ -22,5 +24,8 @@ public class Database {
     }
     public void disconnect(){
         System.out.println("DisConnected");
+    }
+    public Connection getConnection(){
+        return null;
     }
 }

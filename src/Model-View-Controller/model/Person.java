@@ -8,6 +8,14 @@ public class Person {
         this.name = name;
         this.password = password;
     }
+    public Person(String name, String password) {
+        this.name = name;
+        this.password = password;
+    }
+
+    public Person(){
+
+    }
 
     public int getId() {
         return id;
