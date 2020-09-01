@@ -4,6 +4,7 @@ public class FactoryPattern {
         Animal animal = AnimalFactory.createAnimal(AnimalFactory.CAT);
         if (animal != null) {
             animal.speak();
+            animal.eat();
         }
     }
 }
