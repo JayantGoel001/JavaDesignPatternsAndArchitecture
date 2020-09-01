@@ -12,6 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/controller" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/model" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Observer Pattern/view" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
