@@ -1,6 +1,8 @@
-import static org.junit.Assert.*;
-import juni
-class PersonDAOTest{
+import org.junit.*;
+
+import static org.junit.Assert.fail;
+
+class PersonDAOTest {
     @BeforeClass
     public static void setUpBeforeClass() throws Exception{
 
@@ -19,6 +21,8 @@ class PersonDAOTest{
     }
     @Test
     public void test(){
-        Assert.fail("Not Yet Implemented");
+        int value = 2;
+        value+=7;
+        Assert.assertEquals("Check ",9,value);
     }
 }
