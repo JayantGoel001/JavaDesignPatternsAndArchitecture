@@ -1,4 +1,4 @@
-public class Dog implements Animal{
+public class Dog extends AbstractAnimal implements Animal{
 
     @Override
     public void speak() {
