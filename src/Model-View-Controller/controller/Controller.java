@@ -1,7 +1,7 @@
 import java.sql.SQLException;
 
 public class Controller implements LoginListener{
-    private PersonDAO personDAO = new PersonDAO();
+    private final PersonDAO personDAO = new PersonDAO();
     public Controller(Model model, View view) {
     }
 
