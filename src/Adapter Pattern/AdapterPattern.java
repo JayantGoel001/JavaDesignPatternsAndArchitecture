@@ -6,7 +6,7 @@ public class AdapterPattern {
         logger.write("Hello");
 
         //Inheritance
-        ConsoleLogWriter consoleLogWriter2 = new ConsoleLogWriter();
+        ConsoleLogWriter2 consoleLogWriter2 = new ConsoleLogWriter2();
         Logger logger2 = new Logger(consoleLogWriter2);
         logger2.write("Hello2");
     }

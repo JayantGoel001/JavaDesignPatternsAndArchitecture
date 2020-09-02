@@ -1,3 +1,3 @@
 public interface LogWriter {
-    public void out(String text);
+    void out(String text);
 }
